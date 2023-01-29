@@ -1,15 +1,6 @@
-#name = input("What's your name?? : ")
-#print(f'Hello {name}!')
+first_name = input("Enter your first name : ")
+last_name = input("Enter your last name : ")
 
-from tkinter import *
+profile_name = (first_name[0]) + (last_name[0])
 
-window = Tk()
-window.geometry("450x600")
-window.title("Callista first GUI proram")
-
-#icon = PhotoImage(file='hellokitty.png')
-#window.iconphoto(True, icon)
-
-window.config(background="pink")
-
-window.mainloop()
+print(profile_name.upper())
